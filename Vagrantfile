@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "bwesmcclure/ubuntu1404-docker"
+  config.vm.box = "wesmcclure/ubuntu1404-docker"
 
    config.vm.define "consul-server" do |cs|
       cs.vm.hostname = "consul-server"
